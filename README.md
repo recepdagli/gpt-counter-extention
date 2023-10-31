@@ -1,6 +1,6 @@
 # gpt-counter-extention
 
-a tool for track the current limitation of GPT-4.
+a simple tool for track the current limitation of GPT-4.
 
 set the time, click the "GPT!" and know how much you used!
 
