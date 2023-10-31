@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Countdown Timer For GPT-4! (Developed with GPT-4)",
+    "version": "1.0",
+    "description": "A simple countdown timer with amount of usage for GPT-4.",
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://chat.openai.com/*"],
+        "js": ["content.js"],
+        "css": ["style.css"],
+        "run_at": "document_idle"
+      }
+    ],
+    "permissions": ["activeTab"]
+  }
+  
