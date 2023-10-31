@@ -7,3 +7,5 @@ set the time, click the "GPT!" and know how much you used!
 didn't publish to the chrome extention store yet
 
 you can download, open developer mode in chrome://extensions/, load files and enjoy!
+
+![Screenshot](screenshot.png)
